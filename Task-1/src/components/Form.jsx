@@ -1,6 +1,6 @@
 import React from "react";
 
-const Form = () => {
+const Form = (props) => {
   return (
     <div >
       <form
@@ -46,14 +46,14 @@ const Form = () => {
         {/*inputTextCenter start */}
         <div className="inputTextCenter mt-3 d-flex flex-column">
           <div>
-            <label className="form-label fs-5 text-white"> Label:</label>
+            <label className="form-label fs-5 text-white"> {props.label1}:</label>
             <input type="text" class="form-control bg-transparent text-white" />
             <p className="mt-2 opacity-50 text-white">
               Please write label to here
             </p>
           </div>
           <div>
-            <label className="form-label  fs-5 text-white"> Key:</label>
+            <label className="form-label  fs-5 text-white"> {props.label2}:</label>
             <input type="text" class="form-control bg-transparent text-white" />
             <p className="mt-2 opacity-50 text-white">
               Please write key to here
