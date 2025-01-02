@@ -2,6 +2,7 @@ import CaptionWithRadio from "../../components/caption-with-radio";
 import CaptionWithText from "../../components/caption-with-text";
 
 export default function TaskAddtionalInfo() {
+  
   return (
     <>
       <div className="row">
