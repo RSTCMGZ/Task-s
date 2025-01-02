@@ -1,0 +1,40 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+button{
+    border-radius: 0 !important;
+}
+
+.nav-item button{
+    color: #fff !important;
+    height: 100% !important;
+
+}
+.nav-tabs .active,
+.nav-tabs .focus {
+  background-color: transparent !important;
+  border: none!important;
+}
+.nav-item button:focus{
+    background-color: #0099cc!important;
+    height: 100% !important;
+    border: 0!important;
+}
+.nav-tabs,
+.nav-tabs li button:hover{
+    border: 0!important;
+    height: 100% !important;
+
+}
+.bgColor{
+  background-color: #444444!important;
+}
+
+
+.assigned-agents-tab::after {
+    content: "|";
+    font-size: 32px; /* Daha büyük yapmak için */
+    line-height: 1; /* Çizginin dikey hizasını korur */
+    margin-left: 15px; /* Daha sağa kaydırmak için */
+    color: #fff; /* Çizginin rengi */
+    vertical-align: middle; /* Tam ortalamak için */
+  }
